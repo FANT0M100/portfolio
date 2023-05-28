@@ -178,3 +178,60 @@ img {
 .show {
   right: 0;
 }
+
+/* HOME SECTION */
+.home {
+  position: relative;
+  padding: 4rem 0 5rem;
+  row-gap: 5rem;
+}
+.home__data {
+  align-self: center;
+}
+.home__title {
+  font-size: var(--big-font-seze);
+  margin-bottom: var(--mb-5);
+}
+.home__title-color {
+  color: var(--firsy-color);
+  text-transform: uppercase;
+}
+.home__social {
+  display: flex;
+  flex-direction: column;
+}
+.home__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+  transition: all 0.3s;
+}
+.home__social-icon:hover {
+  color: var(--firsy-color);
+}
+.home__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+}
+.home__img img {
+  border-radius: 50%;
+}
+
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: var(--firsy-color);
+  color: #fff;
+  padding: 0.75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: 0.5rem;
+  transition: all 0.4s;
+}
+.button:hover {
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+}
+
+/* ABOUT SECTION */
